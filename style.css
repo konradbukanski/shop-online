@@ -1,0 +1,14 @@
+body {
+  display: flex;
+  margin: 0;
+}
+.leftbar {
+  width: 30%;
+}
+.content {
+  flex-grow: 1;
+  background-color: aquamarine;
+}
+.products {
+  display: flex;
+}

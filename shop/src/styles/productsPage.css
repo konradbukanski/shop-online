@@ -1,0 +1,28 @@
+.productList {
+  display: flex;
+  justify-content: space-around;
+  flex-wrap: wrap;
+}
+
+.productList__product {
+  /* background-color: teal; */
+  width: 30%;
+  margin: 50px 0;
+}
+.productList__product img {
+  width: 50%;
+}
+
+.productList__product button {
+  border: 1px solid black;
+  border-radius: 5px;
+  background-color: white;
+  padding: 10px;
+  margin: 10px 0;
+}
+.card {
+  position: fixed;
+  right: 0;
+  top: 0;
+  color: rgb(122, 33, 33);
+}
